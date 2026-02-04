@@ -23,12 +23,32 @@ namespace LibraryGUI.Views
     {
         Read read = new Read();
         private readonly MainWindow _mainWindow;
-
-        public ShowDatas()
+        public ShowDatas(MainWindow mainWindow)
         {
             InitializeComponent();
-            _mainWindow = MainWindow();
-            dataGrid1.ItemsSource = read.ReadAuthors().ToList();
+            _mainWindow = mainWindow;
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            var list = read.ReadAuthors();
+            MessageBox.Show(list?.Count.ToString() ?? "null");
+            dataGrid1.ItemsSource = list;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var list = read.ReadCategories();
+            MessageBox.Show(list?.Count.ToString() ?? "null");
+            dataGrid1.ItemsSource = list;
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            var list = read.ReadBooks();
+            MessageBox.Show(list?.Count.ToString() ?? "null");
+            dataGrid1.ItemsSource = list;
         }
     }
 }

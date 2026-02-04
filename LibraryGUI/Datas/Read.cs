@@ -11,18 +11,29 @@ namespace LibraryGUI.Datas
     {
 		public List<Authors> ReadAuthors()
         {
-			try
-			{
-				using (var context = new librarydbContext())
-				{
-					var users = context.Authors.ToList();
-					return users;
-				}
-			}
-			catch (Exception ex)
-			{
-				return null;
-			}
+            using (var context = new librarydbContext())
+            {
+                var users = context.Authors.ToList();
+                return users;
+            }
+        }
+
+        public List<Categories> ReadCategories()
+        {
+            using (var context = new librarydbContext())
+            {
+                var users = context.Categories.ToList();
+                return users;
+            }
+        }
+
+        public List<Books> ReadBooks()
+        {
+            using (var context = new librarydbContext())
+            {
+                var users = context.Books.ToList();
+                return users;
+            }
         }
     }
 }
