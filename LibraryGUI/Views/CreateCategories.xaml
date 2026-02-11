@@ -10,7 +10,8 @@
 
     <Grid Background="#FFD4FFFA">
         <TextBox x:Name="categoryText" HorizontalAlignment="Center" Margin="0,176,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="49" BorderBrush="Black" BorderThickness="3,3,3,3"/>
-        <Button Content="Add" HorizontalAlignment="Center" Margin="0,244,0,0" VerticalAlignment="Top" Height="49" Width="160" Click="Button_Click" BorderBrush="Black" Background="#FF8BBDFF" Foreground="White" FontWeight="Bold" FontSize="24" BorderThickness="3,3,3,3"/>
+        <Button Content="Add" HorizontalAlignment="Center" Margin="0,230,0,0" VerticalAlignment="Top" Height="49" Width="160" Click="Button_Click" BorderBrush="Black" Background="#FF8BBDFF" Foreground="White" FontWeight="Bold" FontSize="24" BorderThickness="3,3,3,3"/>
+        <Label Content="Add a Category" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="0,122,0,0" Height="49" Width="160" Background="#FFD4FFFA" BorderBrush="Black" Foreground="Black" VerticalAlignment="Top" HorizontalAlignment="Center" FontWeight="Bold" FontSize="19" BorderThickness="3,3,3,3"/>
 
     </Grid>
 </Page>

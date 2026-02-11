@@ -11,26 +11,26 @@
     <Grid>
 
         <Menu Background="#FFD4FFFA">
-            <MenuItem Header="_Read" BorderBrush="Black" Background="#FF8BBDFF" Foreground="White" FontWeight="Bold" FontSize="16" Height="43" Width="56" BorderThickness="2,2,2,2">
+            <MenuItem Header="_Read" BorderBrush="Black" Background="#FF8BBDFF" Foreground="White" FontWeight="Bold" FontSize="16" Height="43" Width="56" BorderThickness="3,3,1,3">
                 <MenuItem Header="Authors" Click="MenuItem_Click_1"/>
                 <MenuItem Header="Categories" Click="MenuItem_Click"/>
                 <MenuItem Header="Books" Click="MenuItem_Click_2"/>
                 <MenuItem Header="AuthorsBooks" Click="MenuItem_Click_3" />
             </MenuItem>
 
-            <MenuItem Header="_Create" BorderBrush="Black" Background="#FF8BBDFF" Foreground="White" FontWeight="Bold" FontSize="16" Height="43" Width="67" BorderThickness="2,2,2,2">
+            <MenuItem Header="_Create" BorderBrush="Black" Background="#FF8BBDFF" Foreground="White" FontWeight="Bold" FontSize="16" Height="43" Width="67" BorderThickness="2,3,1,3">
                 <MenuItem Header="Authors"/>
                 <MenuItem Header="Categories"/>
                 <MenuItem Header="Books"/>
             </MenuItem>
 
-            <MenuItem Header="_Update" BorderBrush="Black" Background="#FF8BBDFF" FontWeight="Bold" Foreground="White" FontSize="16" Height="43" Width="75" BorderThickness="2,2,2,2">
+            <MenuItem Header="_Update" BorderBrush="Black" Background="#FF8BBDFF" FontWeight="Bold" Foreground="White" FontSize="16" Height="43" Width="75" BorderThickness="2,3,2,3">
                 <MenuItem Header="Authors"/>
                 <MenuItem Header="Categories"/>
                 <MenuItem Header="Books"/>
             </MenuItem>
 
-            <MenuItem Header="_Delete" BorderBrush="Black" Background="#FF8BBDFF" FontWeight="Bold" Foreground="White" FontSize="16" Height="43" Width="68" BorderThickness="2,2,2,2">
+            <MenuItem Header="_Delete" BorderBrush="Black" Background="#FF8BBDFF" FontWeight="Bold" Foreground="White" FontSize="16" Height="43" Width="68" BorderThickness="1,3,3,3">
                 <MenuItem Header="Authors"/>
                 <MenuItem Header="Categories"/>
                 <MenuItem Header="Books"/>
