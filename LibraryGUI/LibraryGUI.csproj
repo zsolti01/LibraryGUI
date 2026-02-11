@@ -171,6 +171,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Datas\Create.cs" />
+    <Compile Include="Views\CreateAuthors.xaml.cs">
+      <DependentUpon>CreateAuthors.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CreateBooks.xaml.cs">
+      <DependentUpon>CreateBooks.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CreateCategories.xaml.cs">
+      <DependentUpon>CreateCategories.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\ShowDatas.xaml.cs">
       <DependentUpon>ShowDatas.xaml</DependentUpon>
     </Compile>
@@ -187,6 +197,18 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\CreateAuthors.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\CreateBooks.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\CreateCategories.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\ShowDatas.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
