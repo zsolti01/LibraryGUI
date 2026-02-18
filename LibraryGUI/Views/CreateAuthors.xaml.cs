@@ -29,7 +29,13 @@ namespace LibraryGUI.Views
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            create.CreateAuthor(authorText.Text);
+            dynamic authorResult = create.CreateAuthor(authorText.Text);
+            MessageBox.Show(authorResult.message);
+        }
+
+        private void exit_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
         }
     }
 }

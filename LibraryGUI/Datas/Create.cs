@@ -32,7 +32,7 @@ namespace LibraryGUI.Datas
             {
                 var book = new Books
                 {
-                    BookName = name
+                    Title = name
                 };
 
                 context.Books.Add(book);

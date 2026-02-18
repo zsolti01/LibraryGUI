@@ -26,5 +26,16 @@ namespace LibraryGUI.Views
         {
             create.CreateCategories(categoryText.Text);
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            dynamic categoryResult = create.CreateCategories(categoryText.Text);
+            MessageBox.Show(categoryResult.message);
+        }
+
+        private void exit_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
     }
 }

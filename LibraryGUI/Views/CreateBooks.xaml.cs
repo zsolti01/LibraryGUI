@@ -26,5 +26,16 @@ namespace LibraryGUI.Views
         {
             create.CreateBooks(bookText.Text);
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            dynamic bookResult = create.CreateBooks(bookText.Text);
+            MessageBox.Show(bookResult.message);
+        }
+
+        private void exit_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
     }
 }
