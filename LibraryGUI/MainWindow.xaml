@@ -16,40 +16,40 @@
                        FontSize="42"
                        FontWeight="Bold"
                        HorizontalAlignment="Center"
-                       Margin="0,0,0,20"/>
+                       Margin="0,0,0,10"/>
 
             <Button x:Name="BtnRead"
                     Content="Read"
                     Height="45"
-                    FontSize="16"
-                    Margin="0,5"/>
+                    FontSize="22"
+                    Margin="0,5" BorderBrush="Black" BorderThickness="2px"/>
 
             <Button x:Name="BtnCreate"
                     Content="Create"
                     Height="45"
-                    FontSize="16"
-                    Margin="0,5"/>
+                    FontSize="22"
+                    Margin="0,5" BorderBrush="Black" BorderThickness="2px"/>
 
             <Button x:Name="BtnUpdate"
                     Content="Update"
                     Height="45"
-                    FontSize="16"
-                    Margin="0,5"/>
+                    FontSize="22"
+                    Margin="0,5" BorderBrush="Black" BorderThickness="2px"/>
 
             <Button x:Name="BtnDelete"
                     Content="Delete"
                     Height="45"
-                    FontSize="16"
-                    Margin="0,5"/>
+                    FontSize="22"
+                    Margin="0,5" BorderBrush="Black" BorderThickness="2px"/>
 
-            <Separator Margin="0,20,0,10"/>
+            <Separator Margin="0,20,0,20"/>
 
             <Button x:Name="BtnExit"
                     Content="Exit"
-                    Height="40"
-                    FontSize="15"
+                    Height="45"
+                    FontSize="22"
                     Background="#E53935"
-                    Foreground="White"/>
+                    Foreground="White" BorderBrush="Black" BorderThickness="2px"/>
         </StackPanel>
     </Grid>
 </Window>
